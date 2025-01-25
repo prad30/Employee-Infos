@@ -48,7 +48,7 @@ git clone https://github.com/prad30/Employee-Infos.git
 
 ## Navigate to the project directory:
 
-## Install backend dependencies:
+Install backend dependencies:
 
 cd backend
 
