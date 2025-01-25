@@ -51,6 +51,7 @@ git clone https://github.com/prad30/Employee-Infos.git
 ## Install backend dependencies:
 
 cd backend
+
 npm install
 
 ## Start the backend server:
