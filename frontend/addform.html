@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/form.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <title>Add Employee Details</title>
+</head>
+
+<body>
+    <section class="nav-bar">
+        <div class="nav-logo">
+            <img src="asset/logo.png" alt="Employee-info-logo">
+        </div>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="index.html" class="home">Home</a></li>
+                <!-- <li><a href="addform.html">Add Employee</a></li> -->
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+    <div class="add-form-container">
+        <form class="employee-form" id="employee-form">
+            <h1> Add Employee Details</h1>
+
+            <label for="emp-id">Emp ID:</label>
+            <input type="text" id="emp-id" name="emp-id" placeholder="Enter Employee ID" required>
+
+            <label for="emp-name">Emp Name:</label>
+            <input type="text" id="emp-name" name="emp-name" placeholder="Enter Employee Name" required>
+
+            <label for="position">Position:</label>
+            <input type="text" id="position" name="position" placeholder="Enter Position" required>
+
+            <label for="salary">Salary:</label>
+            <input type="number" id="salary" name="salary" placeholder="Enter Salary" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required>
+
+            <label for="summary">Summary:</label>
+            <textarea id="summary" name="summary" placeholder="Enter a brief summary" rows="4" required></textarea>
+
+            <div class="btn-container">
+                <button type="submit" class="submit-button">Add</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+<script src="Script/script.js"></script>
+
+</html>

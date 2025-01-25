@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/detailedpage.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <title>Employee Details</title>
+
+</head>
+
+<body>
+
+    <section class="nav-bar">
+        <div class="nav-logo">
+            <img src="asset/logo.png" alt="Employee-info-logo">
+        </div>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="addform.html">Add Employee</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+
+    <div class="container">
+        <div class="profile-header">
+            <img src="asset/circle-plus-solid.svg" alt="">
+            <div>
+                <h2 id="emp-name"></h2>
+                <h4 id="emp-id"></h4>
+                <p id="emp-position"></p>
+            </div>
+        </div>
+        <div class="details">
+            <h3>Contact Information:</h3>
+            <p id="e-mail"><strong>Email:</strong></p>
+            <p id="phone"><strong>Phone:</strong></p>
+        </div>
+        <div class="details">
+            <h3>Summary:</h3>
+            <p id="summary"></p>
+            <h3>Salary:</h3>
+            <p id="emp-salary"></p>
+        </div>
+        <div class="actions">
+            <button class="edit"><a href="" id="edit-link">Edit</a></button>
+            <button class="delete">Delete</button>
+        </div>
+    </div>
+
+    <script src="Script/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+.add-form-container,.edit-container{
+margin-top: 50px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 45%;
+}
+.employee-form,.edit-employee-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.employee-form h1,.edit-employee-form h1{
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.employee-form label,.edit-employee-form label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.employee-form input,.employee-form textarea,.edit-employee-form input,.edit-employee-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.employee-form input:hover ,.edit-employee-form input:hover{
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+.submit-button{
+    background-color: #04383f;
+    color: white;
+    width: fit-content;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+    background-color:#006979;
+    transform: translateY(-2px);
+}
+
+.submit-button:active {
+    background-color: #04383f;
+    transform: translateY(0);
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}

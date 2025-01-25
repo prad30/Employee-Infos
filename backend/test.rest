@@ -1,0 +1,30 @@
+### Get All Employees
+GET http://localhost:5000/api/employees
+
+### Get Single Employee
+GET http://localhost:5000/api/employees/6792894167e200af50b09c74
+
+### Create Employee
+POST http://localhost:5000/api/employees
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "position": "Manager",
+  "department": "HR",
+  "salary": 60000
+}
+
+### Update Employee
+PUT http://localhost:5000/api/employees/101
+Content-Type: application/json
+
+{
+  "name": "Jane Smith",
+  "position": "Team Leader",
+  "department": "HR",
+  "salary": 65000
+}
+
+### Delete Employee
+DELETE http://localhost:5000/api/employees/6792894167e200af50b09c74

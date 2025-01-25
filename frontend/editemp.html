@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Employee</title>
+    <link rel="stylesheet" href="Style/form.css">
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+    <section class="nav-bar">
+        <div class="nav-logo">
+            <img src="asset/logo.png" alt="Employee-info-logo">
+        </div>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="index.html" class="home">Home</a></li>
+                <!-- <li><a href="addform.html">Add Employee</a></li> -->
+            </ul>
+        </div>
+    </section>
+    <hr>
+
+    <div class="edit-container">
+        <form id="edit-employee-form" class="edit-employee-form">
+            <h1>Edit Employee Details</h1>
+            <label for="edit-emp-id">Employee ID</label>
+            <input type="text" id="edit-emp-id" readonly />
+            <label for="edit-emp-name">Employee Name</label>
+            <input type="text" id="edit-emp-name" />
+            <label for="edit-position">Position</label>
+            <input type="text" id="edit-position" />
+            <label for="edit-salary">Salary</label>
+            <input type="number" id="edit-salary" />
+            <label for="edit-email">Email</label>
+            <input type="email" id="edit-email" />
+            <label for="edit-phone">Phone</label>
+            <input type="text" id="edit-phone" />
+            <label for="edit-summary">Summary</label>
+            <textarea id="edit-summary" rows="4"></textarea>
+            <div class="btn-container">
+                <button type="submit" class="submit-button">Update</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="Script/script.js"></script> 
+</body>
+
+</html>

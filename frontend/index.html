@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="shortcut icon" href="asset/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Employee Info</title>
+</head>
+
+<body>
+    <section class="nav-bar">
+        <div class="nav-logo">
+            <img src="asset/logo.png" alt="Employee-info-logo">
+        </div>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="index.html" class="home">Home</a></li>
+                <li><a href="addform.html"><button class="add-button">Add Employee</button>
+                    </a></li>
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="search-section">
+        <div class="search-container">
+            <!-- <select id="search-criteria">
+                <option value="Employee ID">Employee ID</option>
+                <option value="Employee Name">Employee Name</option>
+                <option value="Position">Position</option>
+                <option value="Salary">Salary</option>
+            </select> -->
+
+            <input type="text" id="search-input" placeholder="Search...">
+            <!-- <button id="search-button" type="button">Search</button> -->
+        </div>
+    </section>
+    <section class="employee-table">
+        <div class="employee-title-container">
+            <h1>Employee Details</h1>
+            <!-- <button class="add-button">Add Employee</button> -->
+        </div>
+        <table class="table-list">
+            <tr>
+                <th>Emp ID</th>
+                <th>Emp Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+                <th></th>
+            </tr>
+
+        </table>
+        <div class="no-data-found"></div>
+        <div class="empty-data"></div>
+        
+    </section>
+
+
+
+
+</body>
+<script src="Script/script.js"></script>
+
+
+</html>
