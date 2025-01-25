@@ -34,8 +34,6 @@ Node.js (Express)
 
 MongoDB
 
-Setup Instructions
-
 ## Prerequisites:
 
 Node.js and npm installed.
